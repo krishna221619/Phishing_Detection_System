@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Phishing Detector",
+    "description": "Detects potential phishing sites.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["popup.js"],
+      "persistent": false
+    }
+  }
+  
