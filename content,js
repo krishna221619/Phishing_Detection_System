@@ -1,0 +1,6 @@
+// content.js
+console.log("Content script loaded!");
+
+// You can manipulate the DOM or interact with the page here.
+// For example:
+document.body.style.backgroundColor = "lightyellow";
